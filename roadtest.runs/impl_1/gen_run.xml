@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7s25csga225-1" LaunchTime="1714005036">
+  <File Type="ROUTE-PWR" Name="C7mod_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="C7mod.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="C7mod_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="C7mod_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="C7mod_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="C7mod.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="C7mod_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="C7mod_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="C7mod_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="C7mod_opt.dcp"/>
+  <File Type="OPT-DRC" Name="C7mod_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="C7mod.hwdef"/>
+  <File Type="PWROPT-DCP" Name="C7mod_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="C7mod_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="C7mod_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="C7mod_placed.dcp"/>
+  <File Type="PLACE-IO" Name="C7mod_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="C7mod_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="C7mod_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="C7mod_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="C7mod_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="C7mod_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="C7mod_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="C7mod.bin"/>
+  <File Type="PLACE-TIMING" Name="C7mod_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="C7mod_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="C7mod_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="C7mod_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="C7mod.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="C7mod_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="C7mod_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="C7mod_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="C7mod.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="C7mod_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="C7mod_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="C7mod_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="C7mod_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="C7mod_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="C7mod_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="C7mod_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="C7mod_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="C7mod_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="C7mod_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="C7mod_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="C7mod_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="C7mod_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="C7mod_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="C7mod_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="C7mod_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="C7mod_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="C7mod_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="C7mod_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="C7mod_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="C7mod_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="C7mod_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="C7mod_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="C7mod_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="C7mod_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="C7mod_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="C7mod_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="C7mod.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="C7mod_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="C7mod_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="C7mod.nky"/>
+  <File Type="BITSTR-BMM" Name="C7mod_bd.bmm"/>
+  <File Type="PDI-FILE" Name="C7mod.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="C7mod_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="C7mod_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="C7mod.rcfi"/>
+  <File Type="CFI_FILE" Name="C7mod.cfi"/>
+  <File Type="RNPI_FILE" Name="C7mod.rnpi"/>
+  <File Type="NPI_FILE" Name="C7mod.npi"/>
+  <File Type="RBD_FILE" Name="C7mod.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="C7mod.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="C7mod.sysdef"/>
+  <File Type="BG-BGN" Name="C7mod.bgn"/>
+  <File Type="BG-DRC" Name="C7mod.drc"/>
+  <File Type="RDI-RDI" Name="C7mod.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="C7mod_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="C7mod_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/contador.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/contador_a_n.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/demux_1a4.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/fsm_contador.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/mux_4a1.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/mux_4a1_n.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/one_shot.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/uart_MCU.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/uart_MCU_12MHz .vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/uart_MCU_24MHz .vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/uart_MCU_6MHz.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/TOP.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="C7mod"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/CMOD S7.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/CMOD S7.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design" EnableStepBool="1"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+</GenRun>

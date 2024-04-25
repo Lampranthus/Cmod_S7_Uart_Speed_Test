@@ -1,0 +1,16 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/TOP.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'C7mod'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/contador.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'contador'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/fsm_contador.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fsm_contador'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/one_shot.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'one_shot'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/uart_MCU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'uart_MCU'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/uart_MCU_12MHz .vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'uart_MCU_12MHz'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/uart_MCU_24MHz .vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'uart_MCU_24MHz'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/uart_MCU_6MHz.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'uart_MCU_6MHz'

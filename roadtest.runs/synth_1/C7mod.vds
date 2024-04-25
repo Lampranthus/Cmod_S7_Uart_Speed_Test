@@ -1,0 +1,322 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Apr 24 17:25:38 2024
+# Process ID: 7480
+# Current directory: C:/vivado_proyects/roadtest/roadtest.runs/synth_1
+# Command line: vivado.exe -log C7mod.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source C7mod.tcl
+# Log file: C:/vivado_proyects/roadtest/roadtest.runs/synth_1/C7mod.vds
+# Journal file: C:/vivado_proyects/roadtest/roadtest.runs/synth_1\vivado.jou
+# Running On: DESKTOP-1UOSNSJ, OS: Windows, CPU Frequency: 2494 MHz, CPU Physical cores: 2, Host memory: 12438 MB
+#-----------------------------------------------------------
+source C7mod.tcl -notrace
+create_project: Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 469.418 ; gain = 184.613
+Command: synth_design -top C7mod -part xc7s25csga225-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s25'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s25'
+INFO: [Device 21-403] Loading part xc7s25csga225-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2848
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1294.602 ; gain = 438.711
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'C7mod' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/TOP.vhd:21]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/vivado_proyects/roadtest/roadtest.runs/synth_1/.Xil/Vivado-7480-DESKTOP-1UOSNSJ/realtime/clk_wiz_0_stub.vhdl:6' bound to instance 'New_Clock' of component 'clk_wiz_0' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/TOP.vhd:204]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/vivado_proyects/roadtest/roadtest.runs/synth_1/.Xil/Vivado-7480-DESKTOP-1UOSNSJ/realtime/clk_wiz_0_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'fsm_contador' declared at 'C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/fsm_contador.vhd:4' bound to instance 'fsm' of component 'fsm_contador' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/TOP.vhd:209]
+INFO: [Synth 8-638] synthesizing module 'fsm_contador' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/fsm_contador.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'fsm_contador' (0#1) [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/fsm_contador.vhd:15]
+INFO: [Synth 8-3491] module 'contador' declared at 'C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/contador.vhd:6' bound to instance 'Tx_Counter' of component 'contador' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/TOP.vhd:215]
+INFO: [Synth 8-638] synthesizing module 'contador' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/contador.vhd:17]
+	Parameter n bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'contador' (0#1) [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/contador.vhd:17]
+INFO: [Synth 8-3491] module 'demux_1a4' declared at 'C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/demux_1a4.vhd:4' bound to instance 'Demux' of component 'demux_1a4' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/TOP.vhd:219]
+INFO: [Synth 8-638] synthesizing module 'demux_1a4' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/demux_1a4.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'demux_1a4' (0#1) [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/demux_1a4.vhd:14]
+INFO: [Synth 8-3491] module 'contador_a_n' declared at 'C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/contador_a_n.vhd:6' bound to instance 'BR_Counter' of component 'contador_a_n' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/TOP.vhd:227]
+INFO: [Synth 8-638] synthesizing module 'contador_a_n' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/contador_a_n.vhd:17]
+	Parameter n bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'contador_a_n' (0#1) [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/contador_a_n.vhd:17]
+INFO: [Synth 8-3491] module 'one_shot' declared at 'C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/one_shot.vhd:6' bound to instance 'Shot' of component 'one_shot' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/TOP.vhd:231]
+INFO: [Synth 8-638] synthesizing module 'one_shot' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/one_shot.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'one_shot' (0#1) [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/one_shot.vhd:19]
+INFO: [Synth 8-3491] module 'mux_4a1' declared at 'C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/mux_4a1.vhd:5' bound to instance 'Mux_s' of component 'mux_4a1' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/TOP.vhd:236]
+INFO: [Synth 8-638] synthesizing module 'mux_4a1' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/mux_4a1.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'mux_4a1' (0#1) [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/mux_4a1.vhd:15]
+INFO: [Synth 8-3491] module 'mux_4a1' declared at 'C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/mux_4a1.vhd:5' bound to instance 'Mux_rxb' of component 'mux_4a1' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/TOP.vhd:243]
+INFO: [Synth 8-3491] module 'mux_4a1' declared at 'C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/mux_4a1.vhd:5' bound to instance 'Mux_rxer' of component 'mux_4a1' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/TOP.vhd:250]
+INFO: [Synth 8-3491] module 'mux_4a1' declared at 'C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/mux_4a1.vhd:5' bound to instance 'Mux_txb' of component 'mux_4a1' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/TOP.vhd:258]
+INFO: [Synth 8-3491] module 'mux_4a1_n' declared at 'C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/mux_4a1_n.vhd:5' bound to instance 'Mux_dx' of component 'mux_4a1_n' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/TOP.vhd:266]
+INFO: [Synth 8-638] synthesizing module 'mux_4a1_n' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/mux_4a1_n.vhd:17]
+	Parameter n bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux_4a1_n' (0#1) [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/mux_4a1_n.vhd:17]
+INFO: [Synth 8-3491] module 'uart_MCU' declared at 'C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/uart_MCU.vhd:29' bound to instance 'MCU_uart_0' of component 'uart_MCU' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/TOP.vhd:274]
+INFO: [Synth 8-638] synthesizing module 'uart_MCU' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/uart_MCU.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'uart_MCU' (0#1) [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/uart_MCU.vhd:50]
+INFO: [Synth 8-3491] module 'uart_MCU_6MHz' declared at 'C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/uart_MCU_6MHz.vhd:29' bound to instance 'MCU_uart_1' of component 'uart_MCU_6MHz' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/TOP.vhd:285]
+INFO: [Synth 8-638] synthesizing module 'uart_MCU_6MHz' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/uart_MCU_6MHz.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'uart_MCU_6MHz' (0#1) [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/uart_MCU_6MHz.vhd:50]
+INFO: [Synth 8-3491] module 'uart_MCU_12MHz' declared at 'C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/uart_MCU_12MHz .vhd:29' bound to instance 'MCU_uart_2' of component 'uart_MCU_12MHz' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/TOP.vhd:296]
+INFO: [Synth 8-638] synthesizing module 'uart_MCU_12MHz' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/uart_MCU_12MHz .vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'uart_MCU_12MHz' (0#1) [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/uart_MCU_12MHz .vhd:50]
+INFO: [Synth 8-3491] module 'uart_MCU_24MHz' declared at 'C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/uart_MCU_24MHz .vhd:29' bound to instance 'MCU_uart_3' of component 'uart_MCU_24MHz' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/TOP.vhd:307]
+INFO: [Synth 8-638] synthesizing module 'uart_MCU_24MHz' [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/uart_MCU_24MHz .vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'uart_MCU_24MHz' (0#1) [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/uart_MCU_24MHz .vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'C7mod' (0#1) [C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/TOP.vhd:21]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:53 ; elapsed = 00:00:56 . Memory (MB): peak = 1411.926 ; gain = 556.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:54 ; elapsed = 00:00:57 . Memory (MB): peak = 1411.926 ; gain = 556.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:54 ; elapsed = 00:00:57 . Memory (MB): peak = 1411.926 ; gain = 556.035
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 1411.926 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/vivado_proyects/roadtest/roadtest.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'New_Clock'
+Finished Parsing XDC File [c:/vivado_proyects/roadtest/roadtest.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'New_Clock'
+Parsing XDC File [C:/vivado_proyects/roadtest/roadtest.srcs/constrs_1/new/CMOD S7.xdc]
+WARNING: [Vivado 12-584] No ports matched 'Led1'. [C:/vivado_proyects/roadtest/roadtest.srcs/constrs_1/new/CMOD S7.xdc:20]
+WARNING: [Vivado 12-584] No ports matched 'Led2'. [C:/vivado_proyects/roadtest/roadtest.srcs/constrs_1/new/CMOD S7.xdc:21]
+WARNING: [Vivado 12-584] No ports matched 'Led3'. [C:/vivado_proyects/roadtest/roadtest.srcs/constrs_1/new/CMOD S7.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'Led4'. [C:/vivado_proyects/roadtest/roadtest.srcs/constrs_1/new/CMOD S7.xdc:23]
+Finished Parsing XDC File [C:/vivado_proyects/roadtest/roadtest.srcs/constrs_1/new/CMOD S7.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/vivado_proyects/roadtest/roadtest.srcs/constrs_1/new/CMOD S7.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/C7mod_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/vivado_proyects/roadtest/roadtest.srcs/constrs_1/new/CMOD S7.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/C7mod_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/C7mod_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1445.586 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1445.586 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:45 ; elapsed = 00:01:48 . Memory (MB): peak = 1445.586 ; gain = 589.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s25csga225-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:45 ; elapsed = 00:01:48 . Memory (MB): peak = 1445.586 ; gain = 589.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk_pin. (constraint file  c:/vivado_proyects/roadtest/roadtest.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_pin. (constraint file  c:/vivado_proyects/roadtest/roadtest.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property KEEP_HIERARCHY = SOFT for New_Clock. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:45 ; elapsed = 00:01:48 . Memory (MB): peak = 1445.586 ; gain = 589.695
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'qp_reg' in module 'fsm_contador'
+INFO: [Synth 8-802] inferred FSM for state register 'qp_reg' in module 'one_shot'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                               00 |                               00
+                 iSTATE0 |                               01 |                               01
+                 iSTATE1 |                               10 |                               10
+                 iSTATE2 |                               11 |                               11
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'qp_reg' using encoding 'sequential' in module 'fsm_contador'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE0 |                              001 |                               00
+                 iSTATE1 |                              010 |                               01
+                  iSTATE |                              100 |                               10
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'qp_reg' using encoding 'one-hot' in module 'one_shot'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:48 ; elapsed = 00:01:51 . Memory (MB): peak = 1445.586 ; gain = 589.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   10 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 1     
+	   2 Input    6 Bit       Adders := 2     
+	   2 Input    5 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 14    
+	   2 Input    3 Bit       Adders := 1     
+	   2 Input    2 Bit       Adders := 4     
++---Registers : 
+	               10 Bit    Registers := 5     
+	                9 Bit    Registers := 4     
+	                8 Bit    Registers := 5     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 10    
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 4     
+	                1 Bit    Registers := 34    
++---Muxes : 
+	   2 Input   10 Bit        Muxes := 5     
+	   4 Input    8 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 5     
+	   2 Input    5 Bit        Muxes := 5     
+	   2 Input    4 Bit        Muxes := 13    
+	   3 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 5     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 5     
+	   4 Input    1 Bit        Muxes := 10    
+	   3 Input    1 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 60    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 90 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (Shot/FSM_onehot_qp_reg[2]) is unused and will be removed from module C7mod.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:02 ; elapsed = 00:02:06 . Memory (MB): peak = 1445.586 ; gain = 589.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:36 ; elapsed = 00:02:39 . Memory (MB): peak = 1445.586 ; gain = 589.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:38 ; elapsed = 00:02:42 . Memory (MB): peak = 1445.586 ; gain = 589.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:38 ; elapsed = 00:02:42 . Memory (MB): peak = 1445.586 ; gain = 589.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:03:08 ; elapsed = 00:03:12 . Memory (MB): peak = 1445.586 ; gain = 589.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:08 ; elapsed = 00:03:12 . Memory (MB): peak = 1445.586 ; gain = 589.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:08 ; elapsed = 00:03:12 . Memory (MB): peak = 1445.586 ; gain = 589.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:08 ; elapsed = 00:03:12 . Memory (MB): peak = 1445.586 ; gain = 589.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:08 ; elapsed = 00:03:12 . Memory (MB): peak = 1445.586 ; gain = 589.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:08 ; elapsed = 00:03:12 . Memory (MB): peak = 1445.586 ; gain = 589.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |clk_wiz_0_bbox |     1|
+|2     |CARRY4         |     4|
+|3     |LUT1           |     2|
+|4     |LUT2           |    15|
+|5     |LUT3           |    39|
+|6     |LUT4           |    18|
+|7     |LUT5           |    23|
+|8     |LUT6           |    44|
+|9     |FDCE           |    72|
+|10    |FDPE           |     5|
+|11    |FDRE           |    42|
+|12    |IBUF           |     2|
+|13    |OBUF           |     4|
++------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:08 ; elapsed = 00:03:12 . Memory (MB): peak = 1445.586 ; gain = 589.695
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:03 ; elapsed = 00:03:01 . Memory (MB): peak = 1445.586 ; gain = 556.035
+Synthesis Optimization Complete : Time (s): cpu = 00:03:09 ; elapsed = 00:03:13 . Memory (MB): peak = 1445.586 ; gain = 589.695
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1445.586 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1445.586 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: f0fc545d
+INFO: [Common 17-83] Releasing license: Synthesis
+59 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:34 ; elapsed = 00:03:42 . Memory (MB): peak = 1445.586 ; gain = 965.238
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1445.586 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/vivado_proyects/roadtest/roadtest.runs/synth_1/C7mod.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file C7mod_utilization_synth.rpt -pb C7mod_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 24 17:30:16 2024...

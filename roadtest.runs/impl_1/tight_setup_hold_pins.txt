@@ -1,0 +1,14 @@
++====================+====================+=================================+
+| Launch Setup Clock | Launch Hold Clock  | Pin                             |
++====================+====================+=================================+
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | MCU_uart_0/count_baud_reg[9]/D  |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | MCU_uart_0/count_baud_reg[11]/D |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | MCU_uart_0/count_baud_reg[14]/D |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | MCU_uart_0/count_baud_reg[10]/D |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | MCU_uart_0/count_baud_reg[8]/D  |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | MCU_uart_0/count_baud_reg[5]/D  |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | MCU_uart_0/count_baud_reg[7]/D  |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | MCU_uart_0/count_baud_reg[6]/D  |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | MCU_uart_0/count_baud_reg[4]/D  |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | MCU_uart_0/count_baud_reg[2]/D  |
++--------------------+--------------------+---------------------------------+
