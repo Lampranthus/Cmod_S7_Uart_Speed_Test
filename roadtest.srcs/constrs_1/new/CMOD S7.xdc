@@ -9,7 +9,7 @@ set_property -dict {PACKAGE_PIN M9 IOSTANDARD LVCMOS33} [get_ports clk_pin]
 
 ## Push Buttons
 set_property -dict { PACKAGE_PIN D2    IOSTANDARD LVCMOS33 } [get_ports { btn0 }]; #IO_L6P_T0_34 Sch=btn[0]
-set_property -dict { PACKAGE_PIN D1    IOSTANDARD LVCMOS33 } [get_ports { btn1 }]; #IO_L6N_T0_VREF_34 Sch=btn[1]
+#set_property -dict { PACKAGE_PIN D1    IOSTANDARD LVCMOS33 } [get_ports { btn1 }]; #IO_L6N_T0_VREF_34 Sch=btn[1]
 
 # RGB LEDs
 set_property -dict { PACKAGE_PIN F1    IOSTANDARD LVCMOS33 } [get_ports { led0_b }]; #IO_L10N_T1_34 Sch=led0_b
@@ -17,10 +17,10 @@ set_property -dict { PACKAGE_PIN D3    IOSTANDARD LVCMOS33 } [get_ports { led0_g
 set_property -dict { PACKAGE_PIN F2    IOSTANDARD LVCMOS33 } [get_ports { led0_r }]; #IO_L10P_T1_34 Sch=led0_r
 
 # 4 LEDs
-set_property -dict {PACKAGE_PIN E2 IOSTANDARD LVCMOS33} [get_ports Led1]
-set_property -dict {PACKAGE_PIN K1 IOSTANDARD LVCMOS33} [get_ports Led2]
-set_property -dict {PACKAGE_PIN J1 IOSTANDARD LVCMOS33} [get_ports Led3]
-set_property -dict {PACKAGE_PIN E1 IOSTANDARD LVCMOS33} [get_ports Led4]
+#set_property -dict {PACKAGE_PIN E2 IOSTANDARD LVCMOS33} [get_ports Led1]
+#set_property -dict {PACKAGE_PIN K1 IOSTANDARD LVCMOS33} [get_ports Led2]
+#set_property -dict {PACKAGE_PIN J1 IOSTANDARD LVCMOS33} [get_ports Led3]
+#set_property -dict {PACKAGE_PIN E1 IOSTANDARD LVCMOS33} [get_ports Led4]
 
 ## Pmod Header JA
 #set_property -dict { PACKAGE_PIN J2    IOSTANDARD LVCMOS33 } [get_ports { ja[0] }]; #IO_L14P_T2_SRCC_34 Sch=ja[1]

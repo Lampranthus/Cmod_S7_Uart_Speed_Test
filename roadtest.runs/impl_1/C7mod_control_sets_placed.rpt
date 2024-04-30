@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-| Date         : Wed Apr 24 17:35:22 2024
+| Date         : Mon Apr 29 15:48:47 2024
 | Host         : DESKTOP-1UOSNSJ running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file C7mod_control_sets_placed.rpt
 | Design       : C7mod
@@ -23,11 +23,11 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Total control sets                                       |    12 |
-|    Minimum number of control sets                        |    12 |
+| Total control sets                                       |     9 |
+|    Minimum number of control sets                        |     9 |
 |    Addition due to synthesis replication                 |     0 |
 |    Addition due to physical synthesis replication        |     0 |
-| Unused register locations in slices containing registers |    33 |
+| Unused register locations in slices containing registers |    24 |
 +----------------------------------------------------------+-------+
 * Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
 ** Run report_qor_suggestions for automated merging and remapping suggestions
@@ -39,15 +39,15 @@ Table of Contents
 +--------------------+-------+
 |       Fanout       | Count |
 +--------------------+-------+
-| Total control sets |    12 |
-| >= 0 to < 4        |     1 |
-| >= 4 to < 6        |     4 |
-| >= 6 to < 8        |     0 |
-| >= 8 to < 10       |     5 |
-| >= 10 to < 12      |     1 |
+| Total control sets |     9 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     3 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     3 |
+| >= 10 to < 12      |     0 |
 | >= 12 to < 14      |     0 |
 | >= 14 to < 16      |     0 |
-| >= 16              |     1 |
+| >= 16              |     2 |
 +--------------------+-------+
 * Control sets can be remapped at either synth_design or opt_design
 
@@ -58,33 +58,30 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |              10 |            5 |
-| No           | No                    | Yes                    |              61 |           21 |
+| No           | No                    | No                     |               6 |            6 |
+| No           | No                    | Yes                    |              18 |           10 |
 | No           | Yes                   | No                     |               0 |            0 |
-| Yes          | No                    | No                     |              32 |            8 |
-| Yes          | No                    | Yes                    |              16 |            8 |
-| Yes          | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               8 |            8 |
+| Yes          | No                    | Yes                    |             512 |          214 |
+| Yes          | Yes                   | No                     |               8 |            1 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
 4. Detailed Control Set Information
 -----------------------------------
 
-+--------------------------+------------------------------------+------------------+------------------+----------------+--------------+
-|       Clock Signal       |            Enable Signal           | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
-+--------------------------+------------------------------------+------------------+------------------+----------------+--------------+
-|  Shot/CLK                |                                    | mr               |                1 |              2 |         2.00 |
-|  New_Clock/inst/clk_out1 | BR_Counter/E[0]                    | mr               |                3 |              4 |         1.33 |
-|  New_Clock/inst/clk_out1 | BR_Counter/tx_state_reg_0[0]       | mr               |                2 |              4 |         2.00 |
-|  New_Clock/inst/clk_out1 | BR_Counter/tx_state_reg[0]         | mr               |                2 |              4 |         2.00 |
-|  New_Clock/inst/clk_out1 | fsm/E[0]                           | mr               |                1 |              4 |         4.00 |
-|  fsm/CLK                 |                                    | mr               |                2 |              8 |         4.00 |
-|  New_Clock/inst/clk_out1 | MCU_uart_0/tx_buffer[8]_i_1_n_0    |                  |                2 |              8 |         4.00 |
-|  New_Clock/inst/clk_out1 | MCU_uart_2/tx_buffer[8]_i_1__1_n_0 |                  |                2 |              8 |         4.00 |
-|  New_Clock/inst/clk_out1 | MCU_uart_3/tx_buffer[8]_i_1__2_n_0 |                  |                2 |              8 |         4.00 |
-|  New_Clock/inst/clk_out1 | MCU_uart_1/tx_buffer[8]_i_1__0_n_0 |                  |                2 |              8 |         4.00 |
-|  New_Clock/inst/clk_out1 |                                    |                  |                5 |             10 |         2.00 |
-|  New_Clock/inst/clk_out1 |                                    | mr               |               18 |             51 |         2.83 |
-+--------------------------+------------------------------------+------------------+------------------+----------------+--------------+
++----------------------+-----------------------+-------------------------------+------------------+----------------+--------------+
+|     Clock Signal     |     Enable Signal     |        Set/Reset Signal       | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------+-----------------------+-------------------------------+------------------+----------------+--------------+
+|  Clock/inst/clk_out1 | FSM/E[0]              | mr                            |                2 |              4 |         2.00 |
+|  Clock/inst/clk_out1 | MCU_uart/rx_count0    | mr                            |                1 |              4 |         4.00 |
+|  Clock/inst/clk_out1 | MCU_uart/os_count0    | mr                            |                1 |              4 |         4.00 |
+|  Clock/inst/clk_out1 |                       |                               |                6 |              6 |         1.00 |
+|  Clock/inst/clk_out1 | FSM/baud_pulse_reg[0] |                               |                8 |              8 |         1.00 |
+|  Clock/inst/clk_out1 | MCU_uart/rx_buffer0   | MCU_uart/rx_buffer[8]_i_1_n_0 |                1 |              8 |         8.00 |
+|  Clock/inst/clk_out1 | MCU_uart/rx_data0     | mr                            |                3 |              8 |         2.67 |
+|  Clock/inst/clk_out1 |                       | mr                            |               10 |             18 |         1.80 |
+|  Clock/inst/clk_out1 | FSM/addn_0            | mr                            |              207 |            492 |         2.38 |
++----------------------+-----------------------+-------------------------------+------------------+----------------+--------------+
 
 

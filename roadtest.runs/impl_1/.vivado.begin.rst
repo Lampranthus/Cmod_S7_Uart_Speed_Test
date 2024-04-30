@@ -1,20 +1,10 @@
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Lampranthus" Host="DESKTOP-1UOSNSJ" Pid="4244" HostCore="4" HostMemory="012438065152">
+    <Process Command="vivado.bat" Owner="Lampranthus" Host="DESKTOP-1UOSNSJ" Pid="3476" HostCore="4" HostMemory="012438065152">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Lampranthus" Host="DESKTOP-1UOSNSJ" Pid="4264" HostCore="4" HostMemory="012438065152">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Lampranthus" Host="DESKTOP-1UOSNSJ" Pid="1332" HostCore="4" HostMemory="012438065152">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="Lampranthus" Host="DESKTOP-1UOSNSJ" Pid="6844" HostCore="4" HostMemory="012438065152">
+    <Process Command="vivado.bat" Owner="Lampranthus" Host="DESKTOP-1UOSNSJ" Pid="8172" HostCore="4" HostMemory="012438065152">
     </Process>
 </ProcessHandle>

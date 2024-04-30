@@ -1,14 +1,29 @@
-+====================+====================+=================================+
-| Launch Setup Clock | Launch Hold Clock  | Pin                             |
-+====================+====================+=================================+
-| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | MCU_uart_0/count_baud_reg[9]/D  |
-| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | MCU_uart_0/count_baud_reg[11]/D |
-| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | MCU_uart_0/count_baud_reg[14]/D |
-| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | MCU_uart_0/count_baud_reg[10]/D |
-| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | MCU_uart_0/count_baud_reg[8]/D  |
-| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | MCU_uart_0/count_baud_reg[5]/D  |
-| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | MCU_uart_0/count_baud_reg[7]/D  |
-| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | MCU_uart_0/count_baud_reg[6]/D  |
-| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | MCU_uart_0/count_baud_reg[4]/D  |
-| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | MCU_uart_0/count_baud_reg[2]/D  |
-+--------------------+--------------------+---------------------------------+
++====================+====================+================================+
+| Launch Setup Clock | Launch Hold Clock  | Pin                            |
++====================+====================+================================+
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | MCU_uart/tx_buffer_reg[9]/D    |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM/addp_reg[9]_rep__17/D      |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM/addp_reg[16]/D             |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | MCU_uart/tx_state_reg/D        |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM/addp_reg[5]_rep__17/D      |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM/addp_reg[5]_rep__15/D      |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM/addp_reg[6]_rep__17/D      |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM/addp_reg[9]_rep__16/D      |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM/FSM_sequential_qp_reg[2]/D |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM/addp_reg[14]_rep__17/D     |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM/addp_reg[4]_rep__14/D      |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM/addp_reg[8]_rep__4/D       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM/FSM_sequential_qp_reg[1]/D |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM/addp_reg[3]_rep__15/D      |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM/addp_reg[5]_rep__21/D      |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM/addp_reg[4]_rep__4/D       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM/addp_reg[4]_rep__13/D      |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM/addp_reg[2]_rep__2/D       |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM/FSM_sequential_qp_reg[3]/D |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM/addp_reg[9]_rep__15/D      |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM/addp_reg[1]_rep__16/D      |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM/addp_reg[2]_rep/D          |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | FSM/addp_reg[2]_rep__11/D      |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | MCU_uart/count_os_reg[0]/D     |
+| clk_out1_clk_wiz_0 | clk_out1_clk_wiz_0 | MCU_uart/count_os_reg[1]/D     |
++--------------------+--------------------+--------------------------------+

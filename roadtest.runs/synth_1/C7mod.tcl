@@ -70,8 +70,6 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 1
-set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7s25csga225-1
 
@@ -89,17 +87,9 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
-  C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/contador.vhd
-  C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/contador_a_n.vhd
-  C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/demux_1a4.vhd
+  C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/RAM_XILINX_DP.vhd
   C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/fsm_contador.vhd
-  C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/mux_4a1.vhd
-  C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/mux_4a1_n.vhd
-  C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/one_shot.vhd
-  C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/uart_MCU.vhd
   {C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/uart_MCU_12MHz .vhd}
-  {C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/uart_MCU_24MHz .vhd}
-  C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/uart_MCU_6MHz.vhd
   C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/TOP.vhd
 }
 read_ip -quiet C:/vivado_proyects/roadtest/roadtest.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
